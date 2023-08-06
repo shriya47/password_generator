@@ -20,4 +20,4 @@ if __name__ == "__main__":
     random.shuffle(s)
     
     print("Your password is:\n","".join(s[0:p_len]))
-    #print("Your password is:\n","".join(random.sample(s,p_len)))
+    #print("Your password is:\n","".join(random.sample(s,p_len))) #alternate option to print
